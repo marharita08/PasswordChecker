@@ -1,0 +1,10 @@
+<form>
+  <label for="password">Input password:</label>
+  <br>
+  <input id="password"
+         name="password"
+         type="text"
+         [(ngModel)]="password"
+         (ngModelChange)="onInputChange()"
+  />
+</form>
