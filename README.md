@@ -1,27 +1,39 @@
 # PasswordChecker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+PasswordChecker is an Angular application designed to assess the strength of passwords. This application provides a visual representation of the password strength using three color-coded sections.
 
-## Development server
+## Password Strength Criteria
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The password strength is represented using the following color-coded sections:
 
-## Code scaffolding
+- Gray Sections (Empty Field): If the password field is empty, all sections are displayed in gray.
+- Red Sections (Short Password): If the password contains fewer than 8 characters, all sections are displayed in red.
+- Red Section (Easy Password): If the password is considered easy, only the first section is displayed in red, and the rest are gray.
+- Yellow Sections (Medium Password): If the password is of medium strength, the first two sections are displayed in yellow, and the last one is gray.
+- Green Sections (Strong Password): If the password is strong, all sections are displayed in green.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Before running the PasswordChecker application, ensure you have the following prerequisites installed on your system:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js
+- Angular CLI
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository: `git clone https://github.com/marharita08/PasswordChecker`
+2. Navigate to the project directory: `cd PasswordChecker`
+3. Install the dependencies: `npm install`
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Run the development server: `ng serve`
+2. Open your browser and visit: `http://localhost:4200`
 
-## Further help
+## Screenshots
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Screenshot 1](screenshots/Screenshot_1.png)
+![Screenshot 2](screenshots/Screenshot_2.png)
+![Screenshot 3](screenshots/Screenshot_3.png)
+![Screenshot 4](screenshots/Screenshot_4.png)
+![Screenshot 5](screenshots/Screenshot_5.png)

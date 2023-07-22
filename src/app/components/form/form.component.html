@@ -1,0 +1,15 @@
+<form>
+  <h2>Check strength of your password</h2>
+  <br>
+  <label for="password">Input password:</label>
+  <br>
+  <input id="password"
+         name="password"
+         type="text"
+         [(ngModel)]="password"
+         (ngModelChange)="onInputChange()"
+  />
+  <div class="hint">Strong password should contain letters, digits, and symbols</div>
+  <app-grid [block1Color]="block1Color" [block2Color]="block2Color" [block3Color]="block3Color">
+  </app-grid>
+</form>

@@ -1,0 +1,21 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #398378;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px);
+}
