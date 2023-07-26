@@ -3,14 +3,3 @@ form {
   background-color: white;
   padding: 5px 20px 20px 20px;
 }
-input[type=text] {
-  padding: 12px 20px;
-  margin-top: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: calc(100% - 42px);
-}
-.hint {
-  margin-bottom: 10px;
-  font-size: small;
-}
