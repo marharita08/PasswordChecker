@@ -1,0 +1,10 @@
+<label for="password">Input password:</label>
+<br>
+<input id="password"
+       name="password"
+       type="text"
+       [(ngModel)]="password"
+       (blur)="onBlur()"
+       (input)="onInputChange($event)"
+/>
+<div class="hint">Strong password should contain letters, digits, and symbols</div>

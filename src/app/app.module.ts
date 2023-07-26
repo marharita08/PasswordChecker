@@ -7,12 +7,15 @@ import { AppComponent } from './app.component';
 import {FormComponent} from "./components/form/form.component";
 import {GridComponent} from "./components/grid/grid.component";
 import {NgOptimizedImage} from "@angular/common";
+import {PasswordService} from "./services/password.service";
+import {InputComponent} from "./components/input/input.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    GridComponent
+    GridComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,7 @@ import {NgOptimizedImage} from "@angular/common";
     MatGridListModule,
     NgOptimizedImage
   ],
-  providers: [],
+  providers: [PasswordService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
